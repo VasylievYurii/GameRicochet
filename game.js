@@ -36,7 +36,7 @@ const game = {
   load() {
     for (const image in this.sprites) {
       this.sprites[image] = new Image();
-      this.sprites[image].src = "/images/" + image + ".png";
+      this.sprites[image].src = "./images/" + image + ".png";
     }
   },
 
